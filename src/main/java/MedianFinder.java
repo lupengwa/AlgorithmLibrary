@@ -30,7 +30,14 @@ public class MedianFinder {
             }
             else {
                 if( left1 <= right1 && left2 <= right2) {
-                    return (nums1[left1]+nums2[left2])/2.0;
+                    double min = (nums1[left1]+nums2[left2])/2.0;
+                    if(left1 < right1) {
+                        min = Math.min(min, (nums1[left1]+nums1[left1+1])/2.0);
+                    }
+                    if(left2 < right2) {
+                        min = Math.min(min, (nums2[left2]+nums2[left2+1])/2.0);
+                    }
+                    return min;
                 }
                 else if(left1 <= right1) {
                     return (nums1[left1]+nums1[left1+1])/2.0;
@@ -42,7 +49,7 @@ public class MedianFinder {
         }
 
         if(nums1[(left1+right1)/2] < nums2[(left2+right2)/2]) {
-            if(left1 == right1) {
+            if(left1 == right1 || left1 == right1-1) {
                 return findMedian(nums1, nums2, left1+1, right1, left2, right2, numRemain-1, isOdd);
             }
             else {
@@ -50,10 +57,13 @@ public class MedianFinder {
             }
         }
         else {
-            if(left2 == right2) {
+            if(left2 == right2 || left2 == right2-1) {
                 return findMedian(nums1, nums2, left1, right1, left2+1, right2, numRemain-1, isOdd);
             }
             else {
+                if(numRemain < (right2-left2)/2) {
+                    return isOdd?nums2[left2+numRemain]:(nums2[left2+numRemain]+nums2[left2+numRemain+1])/2.0;
+                }
                 return findMedian(nums1, nums2, left1, right1, (left2+right2)/2, right2, numRemain-(right2-left2)/2, isOdd);
             }
         }
