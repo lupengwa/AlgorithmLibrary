@@ -27,6 +27,24 @@ public class MediaFinderTest {
         int[] nums1 = {3,4, 5, 6};
         int[] nums2 = {1, 2, 3, 4};
         MedianFinder medianFinder = new MedianFinder();
-        assertEquals(3.0, medianFinder.findMedianSortedArrays(nums1,nums2),0.001);
+        assertEquals(3.5, medianFinder.findMedianSortedArrays(nums1,nums2),0.001);
     }
+
+    @Test
+    public void testEdgeFailingArray() {
+        int[] nums1 = {1, 2, 3};
+        int[] nums2 = {1, 2,};
+        MedianFinder medianFinder = new MedianFinder();
+        assertEquals(3.5, medianFinder.findMedianSortedArrays(nums1,nums2),0.001);
+    }
+
+    @Test
+    public void testEdgeFailingTwoArray() {
+        int[] nums1 = {1, 2, 2};
+        int[] nums2 = {1, 2, 3};
+        MedianFinder medianFinder = new MedianFinder();
+        assertEquals(2.0, medianFinder.findMedianSortedArrays(nums1,nums2),0.001);
+    }
+
+
 }

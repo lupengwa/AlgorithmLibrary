@@ -48,17 +48,21 @@ public class MedianFinder {
             }
         }
 
-        if(nums1[(left1+right1)/2] < nums2[(left2+right2)/2]) {
+        //can't judge from number size only
+        if(nums1[(left1+right1)/2] < nums2[(left2+right2)/2] || (nums1[(left1+right1)/2] == nums2[(left2+right2)/2] && (left2 == right2 || left2 == right2-1))) {
             if(left1 == right1 || left1 == right1-1) {
-                return findMedian(nums1, nums2, left1+1, right1, left2, right2, numRemain-1, isOdd);
+                return findMedian(nums1, nums2, left1+1, right1, left2, right2-1, numRemain-1, isOdd);
             }
             else {
+                if(numRemain < (right1-left1)/2) {
+                    return isOdd?nums1[left1+numRemain]:(nums1[left1+numRemain]+nums1[left1+numRemain+1])/2.0;
+                }
                 return findMedian(nums1, nums2, (left1+right1)/2, right1, left2, right2, numRemain-(right1-left1)/2, isOdd);
             }
         }
         else {
             if(left2 == right2 || left2 == right2-1) {
-                return findMedian(nums1, nums2, left1, right1, left2+1, right2, numRemain-1, isOdd);
+                return findMedian(nums1, nums2, left1, right1, left2, right2-1, numRemain-1, isOdd);
             }
             else {
                 if(numRemain < (right2-left2)/2) {
