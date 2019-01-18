@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/MediaFinderTest.java" description="@Test" line="24" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8416a71-6f38-4af0-96ff-dc54e66c45de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MedianFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MediaFinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MediaFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MediaFinderTest.java" afterDir="false" />
-    </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="4f5af706-2438-4b91-ae52-2774aec092f9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AlgorithmLibrary$MediaFinderTest_testStackOverFlowFailingTwoArray.ic" NAME="MediaFinderTest.testStackOverFlowFailingTwoArray Coverage Results" MODIFIED="1547796049421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -45,28 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MedianFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MediaFinderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="387">
+              <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,24 +53,43 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MedianFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="50" column="30" selection-start-line="50" selection-end-line="137" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/MediaFinder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MediaFinderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MedianFinder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MediaFinderTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="371" />
+    <option name="y" value="236" />
+    <option name="width" value="2255" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -100,60 +98,64 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="AlgorithmLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leet Code" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="AlgorithmLibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="AlgorithmLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leet Code" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="AlgorithmLibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgorithmLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leet Code" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="AlgorithmLibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="AlgorithmLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leet Code" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="AlgorithmLibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgorithmLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leet Code" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="AlgorithmLibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="AlgorithmLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leet Code" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="AlgorithmLibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546286938384" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547798540410" />
+    <property name="last_opened_file_path" value="D:/Program Files/Git/git-cmd.exe" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,53 +169,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MediaFinderTest.testNonDuplicatedArray">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediaFinderTest.testEmptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MediaFinderTest.WrongAnswerTwo">
+    <configuration name="MediaFinderTest.IndexOutOfBoundaryForNumRemainLessThanHalf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmLibrary.AlgorithmLibrary.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MediaFinderTest" />
-      <option name="METHOD_NAME" value="testEmptyArray" />
+      <option name="METHOD_NAME" value="IndexOutOfBoundaryForNumRemainLessThanHalf" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaFinderTest.testNonDuplicatedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediaFinderTest.WrongAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmLibrary.AlgorithmLibrary.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MediaFinderTest" />
-      <option name="METHOD_NAME" value="testNonDuplicatedArray" />
+      <option name="METHOD_NAME" value="WrongAnswer" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    <configuration name="MediaFinderTest.WrongAnswerTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmLibrary.AlgorithmLibrary.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MediaFinderTest" />
+      <option name="METHOD_NAME" value="WrongAnswerTwo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
+    <configuration name="MediaFinderTest.testEdgeEqualFailingTwoArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmLibrary.AlgorithmLibrary.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MediaFinderTest" />
+      <option name="METHOD_NAME" value="testEdgeEqualFailingTwoArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaFinderTest.testStackOverFlowFailingTwoArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmLibrary.AlgorithmLibrary.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MediaFinderTest" />
+      <option name="METHOD_NAME" value="testStackOverFlowFailingTwoArray" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MediaFinderTest.testNonDuplicatedArray" />
-        <item itemvalue="JUnit.MediaFinderTest.testEmptyArray" />
+        <item itemvalue="JUnit.MediaFinderTest.WrongAnswerTwo" />
+        <item itemvalue="JUnit.MediaFinderTest.WrongAnswer" />
+        <item itemvalue="JUnit.MediaFinderTest.IndexOutOfBoundaryForNumRemainLessThanHalf" />
+        <item itemvalue="JUnit.MediaFinderTest.testStackOverFlowFailingTwoArray" />
+        <item itemvalue="JUnit.MediaFinderTest.testEdgeEqualFailingTwoArray" />
       </list>
     </recent_temporary>
   </component>
@@ -222,54 +235,60 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d8416a71-6f38-4af0-96ff-dc54e66c45de" name="Default Changelist" comment="" />
-      <created>1546113441286</created>
+      <changelist id="4f5af706-2438-4b91-ae52-2774aec092f9" name="Default Changelist" comment="" />
+      <created>1546584048105</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1546113441286</updated>
-      <workItem from="1546113446689" duration="1491000" />
-      <workItem from="1546118661824" duration="149000" />
-      <workItem from="1546118892621" duration="6125000" />
+      <updated>1546584048105</updated>
+      <workItem from="1546584050630" duration="1598000" />
+      <workItem from="1546585703436" duration="2299000" />
+      <workItem from="1546756277587" duration="597000" />
+      <workItem from="1547086264079" duration="5909000" />
+      <workItem from="1547694465922" duration="988000" />
+      <workItem from="1547790877756" duration="5802000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MediaFinderTest_testEmptyArray - 2018.12.31 at 11h 37m 58s.xml">
-      <configuration name="MediaFinderTest.testEmptyArray" configurationId="JUnit" />
+    <history-entry file="MediaFinderTest_testStackOverFlowFailingTwoArray - 2019.01.17 at 23h 20m 17s.xml">
+      <configuration name="MediaFinderTest.testStackOverFlowFailingTwoArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MediaFinderTest_testNonDuplicatedArray - 2018.12.31 at 11h 39m 40s.xml">
-      <configuration name="MediaFinderTest.testNonDuplicatedArray" configurationId="JUnit" />
+    <history-entry file="MediaFinderTest_testStackOverFlowFailingTwoArray - 2019.01.17 at 23h 20m 59s.xml">
+      <configuration name="MediaFinderTest.testStackOverFlowFailingTwoArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MediaFinderTest_testNonDuplicatedArray - 2018.12.31 at 11h 45m 07s.xml">
-      <configuration name="MediaFinderTest.testNonDuplicatedArray" configurationId="JUnit" />
+    <history-entry file="MediaFinderTest_testStackOverFlowFailingTwoArray - 2019.01.17 at 23h 21m 07s.xml">
+      <configuration name="MediaFinderTest.testStackOverFlowFailingTwoArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MediaFinderTest_testNonDuplicatedArray - 2018.12.31 at 11h 46m 20s.xml">
-      <configuration name="MediaFinderTest.testNonDuplicatedArray" configurationId="JUnit" />
+    <history-entry file="MediaFinderTest_IndexOutOfBoundaryForNumRemainLessThanHalf - 2019.01.17 at 23h 35m 54s.xml">
+      <configuration name="MediaFinderTest.IndexOutOfBoundaryForNumRemainLessThanHalf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MediaFinderTest_testNonDuplicatedArray - 2018.12.31 at 11h 50m 43s.xml">
-      <configuration name="MediaFinderTest.testNonDuplicatedArray" configurationId="JUnit" />
+    <history-entry file="MediaFinderTest_IndexOutOfBoundaryForNumRemainLessThanHalf - 2019.01.17 at 23h 36m 49s.xml">
+      <configuration name="MediaFinderTest.IndexOutOfBoundaryForNumRemainLessThanHalf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MediaFinderTest_testNonDuplicatedArray - 2018.12.31 at 11h 51m 21s.xml">
-      <configuration name="MediaFinderTest.testNonDuplicatedArray" configurationId="JUnit" />
+    <history-entry file="MediaFinderTest_WrongAnswer - 2019.01.17 at 23h 45m 02s.xml">
+      <configuration name="MediaFinderTest.WrongAnswer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MediaFinderTest_testNonDuplicatedArray - 2018.12.31 at 11h 52m 09s.xml">
-      <configuration name="MediaFinderTest.testNonDuplicatedArray" configurationId="JUnit" />
+    <history-entry file="MediaFinderTest_WrongAnswer - 2019.01.17 at 23h 45m 08s.xml">
+      <configuration name="MediaFinderTest.WrongAnswer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MediaFinderTest_testNonDuplicatedArray - 2018.12.31 at 11h 52m 37s.xml">
-      <configuration name="MediaFinderTest.testNonDuplicatedArray" configurationId="JUnit" />
+    <history-entry file="MediaFinderTest_WrongAnswer - 2019.01.17 at 23h 45m 10s.xml">
+      <configuration name="MediaFinderTest.WrongAnswer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MediaFinderTest_testNonDuplicatedArray - 2018.12.31 at 12h 04m 57s.xml">
-      <configuration name="MediaFinderTest.testNonDuplicatedArray" configurationId="JUnit" />
+    <history-entry file="MediaFinderTest_WrongAnswerTwo - 2019.01.17 at 23h 55m 55s.xml">
+      <configuration name="MediaFinderTest.WrongAnswerTwo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MediaFinderTest_WrongAnswerTwo - 2019.01.17 at 23h 59m 37s.xml">
+      <configuration name="MediaFinderTest.WrongAnswerTwo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7765000" />
+    <option name="totallyTimeSpent" value="17193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-6" y="-6" width="1346" height="861" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19147287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -277,28 +296,29 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49689922" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49689922" weight="0.30874318" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49785408" weight="0.1746988" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49925485" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" visible="true" weight="0.4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50310075" side_tool="true" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.28113878" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32945737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.23505154" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -312,35 +332,47 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/MedianFinder.java</url>
-          <line>43</line>
+          <line>131</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MedianFinder.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MedianFinder.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MediaFinderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MedianFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+        <state relative-caret-position="900">
+          <caret line="50" column="30" selection-start-line="50" selection-end-line="137" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MediaFinderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -398,24 +430,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test|AlgorithmLibrary.AlgorithmLibrary</last-edited>
+          <last-edited>AlgorithmLibrary.AlgorithmLibrary</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
