@@ -94,5 +94,37 @@ public class MediaFinderTest {
         assertEquals(4.5, medianFinder.findMedianSortedArrays(nums1,nums2),0.001);
     }
 
+    @Test
+    public void WrongAnswerFour() {
+        int[] nums1 = {1,5};
+        int[] nums2 = {2,3,4,6};
+        MedianFinder medianFinder = new MedianFinder();
+        assertEquals(3.5, medianFinder.findMedianSortedArrays(nums1,nums2),0.001);
+    }
+
+    @Test
+    public void WrongAnswerFive() {
+        int[] nums1 = {1,6,7};
+        int[] nums2 = {2,3,4,5,8};
+        MedianFinder medianFinder = new MedianFinder();
+        assertEquals(4.5, medianFinder.findMedianSortedArrays(nums1,nums2),0.001);
+    }
+
+    @Test
+    public void WrongAnswerSix() {
+        int[] nums1 = {6,7,8};
+        int[] nums2 = {1,2,3,4,5};
+        MedianFinder medianFinder = new MedianFinder();
+        assertEquals(4.5, medianFinder.findMedianSortedArrays(nums1,nums2),0.001);
+    }
+
+    @Test
+    public void WrongAnswerSeven() {
+        int[] nums1 = {1,2,3,4,5};
+        int[] nums2 = {6,7,8,9,10};
+        MedianFinder medianFinder = new MedianFinder();
+        assertEquals(5.5, medianFinder.findMedianSortedArrays(nums1,nums2),0.001);
+    }
+
 
 }
